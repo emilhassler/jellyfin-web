@@ -751,7 +751,7 @@
     "LabelType": "Type",
     "LabelTunerType": "Tuner type",
     "LabelServerName": "Server name",
-    "LabelServerHostHelp": "192.168.1.100:8096 or https://myserver.com",
+    "LabelServerHostHelp": "192.168.1.100:8097 or https://myserver.com",
     "LabelSeriesRecordingPath": "Programmes recording path",
     "LabelRecordingPathHelp": "Specify the default location to save recordings. If left empty, the server's program data folder will be used.",
     "LabelRecordingPath": "Default recording path",

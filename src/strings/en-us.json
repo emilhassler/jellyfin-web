@@ -947,7 +947,7 @@
     "LabelSelectVersionToInstall": "Select version to install",
     "LabelSeriesRecordingPath": "Series recording path",
     "LabelServerHost": "Host",
-    "LabelServerHostHelp": "192.168.1.100:8096 or https://myserver.com",
+    "LabelServerHostHelp": "192.168.1.100:8097 or https://myserver.com",
     "LabelServerName": "Server name",
     "LabelServerNameHelp": "This name will be used to identify the server and will default to the server's hostname.",
     "LabelServerVersion": "Server version",
