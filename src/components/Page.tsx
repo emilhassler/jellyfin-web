@@ -26,6 +26,7 @@ const Page: FC<PropsWithChildren<PageProps>> = ({
     children,
     id,
     className = '',
+    style,
     title,
     isBackButtonEnabled = true,
     isMenuButtonEnabled = false,
@@ -74,6 +75,7 @@ const Page: FC<PropsWithChildren<PageProps>> = ({
             <div
                 ref={element}
                 id={id}
+                style={style}
                 data-role='page'
                 className={classNames(
                     'page',

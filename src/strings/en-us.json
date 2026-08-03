@@ -1941,5 +1941,9 @@
     "LabelPlayerSizes": "Player sizes",
     "LabelPlaybackQuality": "Frame dropped / corrupted",
     "AudioLanguages": "Audio languages",
-    "SubtitleLanguages": "Subtitle languages"
+    "SubtitleLanguages": "Subtitle languages",
+    "HeaderLiveTvChannels": "Live TV Channels",
+    "LabelLiveTvChannelsDescription": "View and edit the channel group (M3U group-title) for each channel.",
+    "LabelChannelGroup": "Channel Group",
+    "ButtonManageChannels": "Manage Channels"
 }

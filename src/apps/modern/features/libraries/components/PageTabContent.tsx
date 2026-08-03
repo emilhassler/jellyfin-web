@@ -11,6 +11,8 @@ import ProgramsSectionView from './ProgramsSectionView';
 import SuggestionsSectionView from './SuggestionsSectionView';
 import UpcomingView from './UpcomingView';
 
+import CategoryChannelsView from 'apps/modern/features/livetv/components/CategoryChannelsView';
+
 interface PageTabContentProps {
     parentId: ParentId;
     currentTab: LibraryTabContent;
@@ -61,6 +63,12 @@ const PageTabContent: FC<PageTabContentProps> = ({ parentId, currentTab }) => {
     if (currentTab.viewType === LibraryTab.Guide) {
         return (
             <GuideView />
+        );
+    }
+
+    if (currentTab.viewType === LibraryTab.Channels) {
+        return (
+            <CategoryChannelsView />
         );
     }
 

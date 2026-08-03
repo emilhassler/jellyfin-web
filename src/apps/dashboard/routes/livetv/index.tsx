@@ -88,14 +88,21 @@ export const Component = () => {
                     <Stack spacing={3}>
                         <Typography variant='h2'>{globalize.translate('HeaderTunerDevices')}</Typography>
 
-                        <Button
-                            sx={{ alignSelf: 'flex-start' }}
-                            startIcon={<AddIcon />}
-                            component={Link}
-                            to='/dashboard/livetv/tuner'
-                        >
-                            {globalize.translate('ButtonAddTunerDevice')}
-                        </Button>
+                        <Stack direction='row' spacing={1.5}>
+                            <Button
+                                startIcon={<AddIcon />}
+                                component={Link}
+                                to='/dashboard/livetv/tuner'
+                            >
+                                {globalize.translate('ButtonAddTunerDevice')}
+                            </Button>
+                            <Button
+                                component={Link}
+                                to='/dashboard/livetv/channels'
+                            >
+                                {globalize.translate('ButtonManageChannels')}
+                            </Button>
+                        </Stack>
 
                         <Box>
                             <Grid container spacing={2}>

@@ -23,4 +23,9 @@ $drawer-width: 240px;
     .metadataEditorPage {
         padding-top: 0 !important;
     }
+
+    // Override contain:size from site.scss (inline style cannot beat !important)
+    #liveTvChannelsPage {
+        contain: style !important;
+    }
 }
